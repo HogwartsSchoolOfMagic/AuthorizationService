@@ -1,0 +1,19 @@
+# Basic server properties
+server:
+  port: ${AUTHORIZATION_PORT:9002}
+
+# Basic spring properties
+spring:
+  # Application
+  application:
+    name: ${AUTHORIZATION_APPLICATION_NAME:authorization-service}
+
+# Basic actuator properties
+management:
+  endpoints:
+    web:
+      exposure:
+        include: ${ACTUATOR_ENDPOINTS:*}
+  endpoint:
+    health:
+      show-details: ${ACTUATOR_HEALTH_SHOW_DETAILS:always}
