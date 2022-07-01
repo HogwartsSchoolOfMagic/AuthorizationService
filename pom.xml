@@ -18,18 +18,28 @@
     <url>https://github.com/HogwartsSchoolOfMagic/AuthorizationService</url>
 
     <organization>
-        <name>Vladislav Kuznetsov</name>
-        <url>https://vk.com/vladislav_kuznetsov</url>
+        <name>HogwartsSchoolOfMagic</name>
+        <url>https://github.com/HogwartsSchoolOfMagic</url>
     </organization>
 
-    <contributors>
-        <contributor>
+    <!-- List the core committers -->
+    <developers>
+        <developer>
+            <id>SmithyVL</id>
             <name>Vladislav Kuznetsov</name>
+            <organization>HogwartsSchoolOfMagic</organization>
+            <organizationUrl>https://github.com/HogwartsSchoolOfMagic</organizationUrl>
             <roles>
-                <role>Java Developer</role>
+                <role>Architect</role>
+                <role>Analyst</role>
+                <role>Developer</role>
             </roles>
-        </contributor>
-    </contributors>
+            <timezone>0</timezone>
+            <properties>
+                <vk-url>https://vk.com/vladislav_kuznetsov</vk-url>
+            </properties>
+        </developer>
+    </developers>
 
     <properties>
         <!-- Pluggable Dependency Versions -->
